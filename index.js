@@ -1,5 +1,9 @@
-// EDtunnel - A Cloudflare Worker-based VLESS Proxy with WebSocket Transport
-// @ts-ignore
+/**
+* Last Update: 4:20 UTC - Friday, 1 November 2024, 
+* @ts-nocheck   <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC<!--GAMFC-END-->.
+* You can\\__WE ARE ALL REvil__//
+* Many thanks to github.com/bia-pain-bache
+*/
 import { connect } from 'cloudflare:sockets';
 
 // ======================================
@@ -16,15 +20,15 @@ let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
  * Array of proxy server addresses with ports
  * Format: ['hostname:port', 'hostname:port']
  */
-const proxyIPs = ['cdn.xn--b6gac.eu.org:443', 'cdn-all.xn--b6gac.eu.org:443'];
+const proxyIPs = ['turk.radicalization.ir'];
 
 // Randomly select a proxy server from the pool
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
 
 // Alternative configurations:
-// Single proxy IP: let proxyIP = 'cdn.xn--b6gac.eu.org';
-// IPv6 example: let proxyIP = "[2a01:4f8:c2c:123f:64:5:6810:c55a]"
+// Single proxy IP: let proxyIP = 'nima.nscl.ir';
+// IPv6 example: let proxyIP = "2.59.117.217"
 
 /**
  * SOCKS5 proxy configuration
@@ -1193,7 +1197,7 @@ function getConfig(userIDs, hostName) {
       <h1>EDtunnel: Protocol Configuration</h1>
       <img src="https://ipfs.io/ipfs/bafybeigd6i5aavwpr6wvnwuyayklq3omonggta4x2q7kpmgafj357nkcky" alt="EDtunnel Logo" class="logo">
       <p>Welcome! This function generates configuration for the vless protocol. If you found this useful, please check our GitHub project:</p>
-      <p><a href="https://github.com/6Kmfi6HP/EDtunnel" target="_blank" style="color: #00ff00;">EDtunnel - https://github.com/6Kmfi6HP/EDtunnel</a></p>
+      <p><a href="https://github.com/NiREvil/Emotional-Damage" target="_blank" style="color: #00ff00;">EDtunnel - https://github.com/NiREvil/Emotional-Damage</a></p>
       <div style="clear: both;"></div>
       <div class="btn-group">
         <a href="//${hostName}/sub/${userIDArray[0]}" class="btn" target="_blank"><i class="fas fa-link"></i> VLESS Subscription</a>
