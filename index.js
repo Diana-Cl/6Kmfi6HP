@@ -1,9 +1,10 @@
 /**
-* Last Update: 4:20 UTC - Friday, 1 November 2024, 
-* @ts-nocheck   <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC<!--GAMFC-END-->.
-* You can\\__WE ARE ALL REvil__//
-* Many thanks to github.com/bia-pain-bache
-*/
+ * Last Update: 04:20 UTC - Thursday, 5 December 2024
+ * - EDtunnel - A Cloudflare Worker-based VLESS Proxy with WebSocket Transport
+ * - We are all REvil 
+ * 
+ */
+
 import { connect } from 'cloudflare:sockets';
 
 // ======================================
@@ -19,6 +20,7 @@ let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 /**
  * Array of proxy server addresses with ports
  * Format: ['hostname:port', 'hostname:port']
+ * Find proxyIP : https://github.com/NiREvil/vless/blob/main/sub/ProxyIP.md
  */
 const proxyIPs = ['turk.radicalization.ir'];
 
